@@ -1,0 +1,17 @@
+1.get
+request:
+外网：http://47.94.98.167:8000/api/qazwsx?infos=你真喜欢开玩笑
+内网：http://10.31.148.173:8000/api/qazwsx?infos=你真喜欢开玩笑
+response:
+   {"question":"你真喜欢开玩笑","answer":"那是必须的，不然怎么得到你的爱呢～"}
+
+2.post
+request:
+外网：http://47.94.98.167:8000/api/qazwsx
+内网：http://10.31.148.173:8000/api/qazwsx
+{"q":"今晚吃什么"}
+response:
+{
+    "question": "今晚吃什么",
+    "answer": "什么都不要吃"
+}
